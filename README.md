@@ -4,7 +4,7 @@ Premium startup website for ScrollZero — **Reclaim Your Attention.**
 
 ## Stack
 
-- Next.js 16 (App Router, TypeScript)
+- Next.js 15 (App Router, TypeScript)
 - Tailwind CSS
 - Framer Motion
 - Shadcn-style UI primitives (Radix + CVA)
@@ -23,6 +23,14 @@ npm run dev
 npm run lint
 npm run build
 ```
+
+## Railway deployment
+
+This repository includes `nixpacks.toml` for Railway so build/runtime are pinned.
+
+- Build: `npm run build`
+- Start: `npm run start -- -p $PORT`
+- Node: `20.x`
 
 ## Pages
 
